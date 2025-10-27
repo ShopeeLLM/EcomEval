@@ -5,6 +5,7 @@ Our paper is [here](https://arxiv.org/abs/2510.20632).
 # Task Categories
 EcomEval benchmark, encompass six primary categories—Ecom Question Answering, Shopping Concepts, User Understanding, Shopping Reasoning, Ecom Generation,
 and Ecom Multimodal—covering both user and merchant-oriented tasks.
+![alt text](ecomeval_tasks.png)
 
 # Dataset Construction Pipeline
 The process consists of four stages:
@@ -15,7 +16,7 @@ categories; <br>
 (3) verifying that sampled questions are e-commerce–relevant, coherent, and unambiguous;<br>
 (4) generating and fact-checking answers with LLMs, external sources, and human expert review
 across multiple languages. 
-
+![alt text](pipeline.png)
 
 ## Citation
 If you find the dataset in our project is useful, please consider citing our work as follows:   
